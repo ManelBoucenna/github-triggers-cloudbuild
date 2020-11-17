@@ -2,7 +2,7 @@ provider "google" {
   version = "3.5.0"
   project = "${var.project}"
   region  = "us-central1"
-  zone    = "us-central1-a"
+  zone    = "us-central1-b"
 }
 
 resource "google_compute_network" "vpc_network" {
