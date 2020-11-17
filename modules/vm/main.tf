@@ -5,7 +5,7 @@ locals {
 resource "google_compute_instance" "vm_instance" {
   project      = "${var.project}"
   zone         = "us-west1-a"
-  name         = "${local.network}-vm-instance"
+  name         = "${local.network}-my-vm-instance-from-github"
   machine_type = "f1-micro"
 
   boot_disk {
