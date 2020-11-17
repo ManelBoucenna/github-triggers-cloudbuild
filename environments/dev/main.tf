@@ -1,6 +1,6 @@
 provider "google" {
   version = "3.5.0"
-  project = "terraform-project-1-295516"
+  project = "${var.project}"
   region  = "us-central1"
   zone    = "us-central1-c"
 }
